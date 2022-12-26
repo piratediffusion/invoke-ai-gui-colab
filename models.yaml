@@ -6,24 +6,24 @@
 # and the width and height of the images it
 # was trained on.
 Anything_v3_vaefixed:
-  weights: invokeai/models/ldm/stable-diffusion-v1/Anything-V3.0-pruned.ckpt
+  weights: home/invokeai/models/ldm/stable-diffusion-v1/Anything-V3.0-pruned.ckpt
   description: Cool anime model
   config: configs/stable-diffusion/v1-inference.yaml
   width: 512
   height: 512
-  vae: invokeai/models/ldm/stable-diffusion-v1/Anything-V3.0.vae.pt
+  vae: home/invokeai/models/ldm/stable-diffusion-v1/Anything-V3.0.vae.pt
   default: true
 Anything_v3_default:
-  weights: invokeai/models/ldm/stable-diffusion-v1/Anything-V3.0-pruned.ckpt
+  weights: home/invokeai/models/ldm/stable-diffusion-v1/Anything-V3.0-pruned.ckpt
   description: Cool anime model
   config: configs/stable-diffusion/v1-inference.yaml
   width: 512
   height: 512
-  vae: invokeai/models/ldm/stable-diffusion-v1/vae-ft-mse-840000-ema-pruned.ckpt
+  vae: home/invokeai/models/ldm/stable-diffusion-v1/vae-ft-mse-840000-ema-pruned.ckpt
 synthwavePunk_v2:
-  weights: invokeai/models/ldm/stable-diffusion-v1/synthwavePunk_v2.ckpt
+  weights: home/invokeai/models/ldm/stable-diffusion-v1/synthwavePunk_v2.ckpt
   description: Synthwave Inkpunk
   config: configs/stable-diffusion/v1-inference.yaml
   width: 512
   height: 512
-  vae: invokeai/models/ldm/stable-diffusion-v1/synthwavePunk_v2.ckpt
+  vae: home/invokeai/models/ldm/stable-diffusion-v1/synthwavePunk_v2.ckpt
